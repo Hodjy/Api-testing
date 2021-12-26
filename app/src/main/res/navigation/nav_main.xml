@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/postDetailsFragment">
+
+    <fragment
+        android:id="@+id/postDetailsFragment"
+        android:name="com.hod.retrofittest.fragments.PostDetailsFragment"
+        android:label="PostDetailsFragment" >
+        <action
+            android:id="@+id/action_to_postShowcaseFragment"
+            app:destination="@id/postShowcaseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postShowcaseFragment"
+        android:name="com.hod.retrofittest.fragments.PostShowcaseFragment"
+        android:label="post_showcase_fragment"
+        tools:layout="@layout/post_showcase_fragment" >
+        <argument
+            android:name="name"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="job"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fragment_post_details_name_il"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:boxBackgroundColor="?attr/colorSecondaryVariant"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        android:hint="@string/name"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fragment_post_details_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fragment_post_details_job_il"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/fragment_post_details_name_il"
+        app:startIconDrawable="@drawable/ic_baseline_work_24"
+        app:boxBackgroundColor="?attr/colorSecondaryVariant"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/job"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fragment_post_details_job_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fragment_post_details_post_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/post"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RetroFit Test</string>
+    <string name="go_to_post">GoToPost</string>
+    <string name="post_window">Post Window</string>
+    <string name="post">Post</string>
+    <string name="name">Name</string>
+    <string name="job">Job</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RetroFit Test</string>
+    <string name="go_to_post">לך ל-פוסט</string>
+    <string name="post_window">חלון פוסט</string>
+    <string name="post">הדפס</string>
+    <string name="name">שם</string>
+    <string name="job">עבודה</string>
+</resources>
